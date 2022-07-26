@@ -2,6 +2,7 @@
   "name": "lucaas.site",
   "version": "1.0.0",
   "description": "Meu simples site",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "node ."

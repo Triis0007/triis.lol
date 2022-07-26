@@ -1,19 +1,17 @@
-const express = require('express');
-const {resolve} = require('path');
+import express from 'express';
 const app = express();
+
 app.use(express.static('views'))
 
 
 app.get('/', (req, res) => {
-    res.send('index');
+  res.send('index');
 });
 
 
-//bglhs
-
-app.use(express.static(__dirname + "/public"), (_, res) => {
+app.use(express.static("./public"), (_, res) => {
   res.status(404)
-  res.sendFile(__dirname + "/views/404.html")
+  res.send("404")
 });
 
 app.listen(80, () => {

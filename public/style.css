@@ -1,0 +1,85 @@
+
+body {
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
+
+.text1 {
+  text-align: center;
+  color:blue;
+}
+
+.text2 {
+  text-align: center;
+  color: gray;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.imgcentral {
+  border-radius: 300px;
+  animation: MoveUpDown 3s linear infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  padding: 20px;
+  box-shadow: 0 0 4px 4px rgb(118, 125, 207);
+  animation: MoveUpDown 4s linear infinite;
+}
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centercard {
+  margin: 0 auto; 
+  float: none;
+  margin-bottom: 10px; 
+
+}
+
+.card {
+  box-shadow: 0 0 5px 0.5px coral;
+  border-radius: 10px;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+
+}
+.card:hover {
+  box-shadow: 0 0 12px 0.5px coral;
+  transform: translateY(-0.30em);
+}
+
+.cardespecial {
+  box-shadow: 0 0 5px 0.5px rgb(255, 196, 0);
+  border-radius: 10px;
+  background-color: rgba(255, 196, 0, 0.13);
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+
+}
+.cardespecial:hover {
+  box-shadow: 0 0 12px 0.5px rgb(255, 166, 0);
+  transform: translateY(-0.30em);
+  background-color: rgba(255, 196, 0, 0.253);
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+
+}
+
+
+.btn {
+  border-radius: 50px;
+}

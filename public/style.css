@@ -21,10 +21,9 @@ body {
   border-radius: 300px;
   animation: MoveUpDown 3s linear infinite;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 15%;
-  padding: 20px;
+  padding: 25x;
   box-shadow: 0 0 4px 4px rgb(118, 125, 207);
   animation: MoveUpDown 4s linear infinite;
 }
@@ -58,19 +57,25 @@ body {
   box-shadow: 0 0 5px 0.5px coral;
   border-radius: 10px;
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+  margin: 10px;
+  padding: 25px;
+
 
 }
 
 .card:hover {
   box-shadow: 0 0 12px 0.5px coral;
   transform: translateY(-0.30em);
+
 }
 
 .cardespecial {
   box-shadow: 0 0 5px 0.5px rgb(255, 196, 0);
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: rgba(255, 196, 0, 0.13);
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  padding: 25px;
+
 
 }
 
@@ -80,6 +85,10 @@ body {
   background-color: rgba(255, 196, 0, 0.253);
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 
+}
+
+.imgcard {
+  border-radius: 30px !important;
 }
 
 .btn {

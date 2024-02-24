@@ -18,12 +18,11 @@ body {
 }
 
 .imgcentral {
-  border-radius: 300px;
+  border-radius: 120px;
   animation: MoveUpDown 3s linear infinite;
   display: block;
-  margin: auto;
+  margin: 20px auto;
   width: 15%;
-  padding: 25x;
   box-shadow: 0 0 4px 4px rgb(118, 125, 207);
   animation: MoveUpDown 4s linear infinite;
 }

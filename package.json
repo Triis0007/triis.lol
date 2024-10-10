@@ -10,8 +10,8 @@
   "author": "Triis0007",
   "dependencies": {
     "bootstrap": "^5.2.0",
-    "cookie-parser": "^1.4.6",
-    "express": "^4.21.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1",
     "path": "^0.12.7"
   }
 }
